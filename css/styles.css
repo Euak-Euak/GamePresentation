@@ -1,7 +1,6 @@
 * {margin:0;padding:0;}
 
 /* INPUT 가리기 */
-.section [id*="slide"] {display:none;}
 
 /* 슬라이드 영역 - max-width 크기를 조절해주면 됩니다*/
 .section .slidewrap
@@ -25,11 +24,29 @@
 .section [id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
 .section [id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
 .section [id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+.section [id="slide04"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-300%);}
+.section [id="slide05"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-400%);}
+.section [id="slide06"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-500%);}
+.section [id="slide07"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-600%);}
+.section [id="slide08"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-700%);}
+.section [id="slide09"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-800%);}
+.section [id="slide10"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-900%);}
+.section [id="slide11"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-1000%);}
+
 
 /*  INPUT이 체크되면 변화값이 좌우 슬라이드 버튼을 담고 있는 div 까지 전달되는 스타일 */
 .section [id="slide01"]:checked ~ .slidewrap .control01 {display:block;}
 .section [id="slide02"]:checked ~ .slidewrap .control02 {display:block;}
 .section [id="slide03"]:checked ~ .slidewrap .control03 {display:block;}
+.section [id="slide04"]:checked ~ .slidewrap .control03 {display:block;}
+.section [id="slide05"]:checked ~ .slidewrap .control03 {display:block;}
+.section [id="slide06"]:checked ~ .slidewrap .control03 {display:block;}
+.section [id="slide07"]:checked ~ .slidewrap .control03 {display:block;}
+.section [id="slide08"]:checked ~ .slidewrap .control03 {display:block;}
+.section [id="slide09"]:checked ~ .slidewrap .control03 {display:block;}
+.section [id="slide10"]:checked ~ .slidewrap .control03 {display:block;}
+.section [id="slide11"]:checked ~ .slidewrap .control03 {display:block;}
+
 
 @font-face {
     font-family: DH;
